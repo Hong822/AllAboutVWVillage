@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'AroundRestaurantPage.dart';
+import 'TestPage/TestScreen.dart';
 
 class FoodHomePage extends StatelessWidget {
   const FoodHomePage({Key? key}) : super(key: key);
@@ -15,7 +16,12 @@ class FoodHomePage extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => TestScreenPage()),
+                );
+              },
               child: Text("Weekly menu of company cafeteria"),
             ),
             ElevatedButton(
