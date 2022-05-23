@@ -16,7 +16,12 @@ class FoodHomePage extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => TestScreenPage()),
+                );
+              },
               child: Text("Weekly menu of company cafeteria"),
             ),
             ElevatedButton(
