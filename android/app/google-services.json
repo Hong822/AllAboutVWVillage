@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "200567053469",
+    "project_id": "travelernotebook",
+    "storage_bucket": "travelernotebook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200567053469:android:755b48456afc671aa18874",
+        "android_client_info": {
+          "package_name": "com.amorypaz.all_about_vw_village"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200567053469-gnnuh05h3jd7apado41ol2ff7h1panp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amorypaz.all_about_vw_village",
+            "certificate_hash": "52f3c19fac4551004227f72ebfd3d33aba813b48"
+          }
+        },
+        {
+          "client_id": "200567053469-qkcejpaahcin0s9f8lk91itd4858ap2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjmV-EE4yZ_3MVQyUxAr1Vfn462x9nERU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200567053469-qkcejpaahcin0s9f8lk91itd4858ap2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
