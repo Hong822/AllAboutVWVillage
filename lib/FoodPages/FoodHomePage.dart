@@ -1,7 +1,8 @@
 import 'package:all_about_vw_village/FoodPages/AroundRestaurants/FoodCategorySelectionPage.dart';
 import 'package:flutter/material.dart';
 
-import 'AroundRestaurants/RestaurantGoogleMapPage.dart';
+import 'SecondTest/SecondTest.dart';
+import 'TestPage/TestScreen.dart';
 
 class FoodHomePage extends StatelessWidget {
   const FoodHomePage({Key? key}) : super(key: key);
