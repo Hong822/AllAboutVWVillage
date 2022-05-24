@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'AroundRestaurantPage.dart';
+import 'SecondTest/SecondTest.dart';
 import 'TestPage/TestScreen.dart';
 
 class FoodHomePage extends StatelessWidget {
@@ -35,7 +36,12 @@ class FoodHomePage extends StatelessWidget {
                   "Restaurants around companies\n(Menu, location, cost, reputation and so on)"),
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SecondTestPage()),
+                );
+              },
               child: Text("Random menu recommendation "),
             ),
           ],
