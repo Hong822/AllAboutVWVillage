@@ -1,8 +1,7 @@
+import 'package:all_about_vw_village/FoodPages/AroundRestaurants/FoodCategorySelectionPage.dart';
 import 'package:flutter/material.dart';
 
-import 'AroundRestaurantPage.dart';
-import 'SecondTest/SecondTest.dart';
-import 'TestPage/TestScreen.dart';
+import 'AroundRestaurants/RestaurantGoogleMapPage.dart';
 
 class FoodHomePage extends StatelessWidget {
   const FoodHomePage({Key? key}) : super(key: key);
@@ -29,7 +28,7 @@ class FoodHomePage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => AroundRestaurantPage()),
+                  MaterialPageRoute(builder: (context) => FoodCategorySelectionPage()),
                 );
               },
               child: Text(
