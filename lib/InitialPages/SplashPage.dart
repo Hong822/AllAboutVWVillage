@@ -46,7 +46,7 @@ class _SplashPageState extends State<SplashPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image(
-            image: AssetImage('images/Splash.png'),
+            image: AssetImage('assets/Splash.png'),
           ),
           //CircularProgressIndicator(),
         ],
